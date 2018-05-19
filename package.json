@@ -1,0 +1,24 @@
+{
+  "name": "contexto",
+  "version": "0.0.1",
+  "description": "javascript application context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasabilio/contexto.git"
+  },
+  "author": "Andreas Abilio <hello@abilio.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreasabilio/contexto/issues"
+  },
+  "homepage": "https://github.com/andreasabilio/contexto#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.has": "^4.5.2",
+    "lodash.set": "^4.3.2"
+  }
+}
