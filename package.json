@@ -1,5 +1,5 @@
 {
-  "name": "contexto",
+  "name": "@abilio/contexto",
   "version": "0.0.1",
   "description": "javascript application context",
   "main": "index.js",
