@@ -16,7 +16,7 @@ export default {
         if(force || !has(store, key)){
             set(store, key, value);
         }else{
-            throw new Error(`Error: key "${key}" already exists in store`);
+            throw new Error(`Error: key "${key}" already exists in context`);
         }
     }
 }
