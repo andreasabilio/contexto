@@ -1,12 +1,12 @@
 "use strict";
 
-import get from 'lodash.get';
-import set from 'lodash.set';
-import has from 'lodash.has';
+const get = require('lodash.get');
+const set = require('lodash.set');
+const has = require('lodash.has');
 
 const store = {};
 
-export default {
+module.exports = {
     has: (key) => has(store, key),
     get: (key) => {
         if(!key) return store;
@@ -19,4 +19,4 @@ export default {
             throw new Error(`Error: key "${key}" already exists in context`);
         }
     }
-}
+};

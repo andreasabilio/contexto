@@ -1,6 +1,6 @@
 {
   "name": "@abilio/contexto",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "javascript application context",
   "main": "index.js",
   "scripts": {
